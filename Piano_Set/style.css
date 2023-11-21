@@ -28,7 +28,7 @@ h1 {
     align-items: flex-end;
 }
 
-button {
+/* button {
     width: 60px;
     height: 200px;
     margin: 5px;
@@ -37,11 +37,19 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
-}
+} */
 
 .white-key {
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60px;
+    height: 200px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
 .black-key {
@@ -53,9 +61,20 @@ button {
     width: 40px;
     border-radius: 0 0 5px 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 200px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
-button:hover {
+.black-key:hover {
+    background-color: #ddd;
+    transform: translateY(-5px);
+}
+.white-key:hover {
     background-color: #ddd;
     transform: translateY(-5px);
 }
