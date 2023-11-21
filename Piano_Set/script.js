@@ -13,7 +13,7 @@ function playUserChoices() {
     userChoices.forEach((note, index) => {
         setTimeout(() => {
             playSound(note);
-        }, index * 500); // Adjust the delay between notes if needed
+        }, index * 10); // Adjust the delay between notes if needed
     });
 }
 
@@ -53,3 +53,9 @@ function startRecording() {
 function stopRecording() {
     isRecording = false;
 }
+
+window.addEventListener('load', function () {
+    setTimeout(function () {
+      document.querySelector('.loading-screen').style.display = 'none';
+    }, 800);
+  });
