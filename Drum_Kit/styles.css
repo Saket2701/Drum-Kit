@@ -12,16 +12,15 @@ h1 {
 }
 
 footer {
-  margin-top: 5%;
+  margin-top: 2%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
   position: fixed;
-  bottom: 120px;
+  bottom: 100px; 
   left: 50%;
   transform: translateX(-50%);
   z-index: 999;
-
 }
 
 .w {

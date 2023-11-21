@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Piano Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="paino-container">
+            <h1>Piano App</h1>
+            <div>
+            <button data-note="A0" onclick="playSound('A0')" class="white-key">A0</button>
+            
+        
+            <button data-note="B0" onclick="playSound('B0')" class="white-key">B0</button>
+            <button data-note="C1" onclick="playSound('C1')" class="black-key">Cb1</button>
+        
+            <button data-note="Db1" onclick="playSound('Db1')" class="white-key">Db1</button>
+            <button data-note="D1" onclick="playSound('D1')" class="black-key">D1</button>
+        
+            <button data-note="Eb1" onclick="playSound('Eb1')" class="white-key">Eb1</button>
+            <button data-note="E1" onclick="playSound('E1')" class="black-key">E1</button>
+        
+            <button data-note="F1" onclick="playSound('F1')" class="white-key">F1</button>
+            <button data-note="Gb1" onclick="playSound('Gb1')" class="black-key">Gb1</button>
+        
+            <button data-note="G1" onclick="playSound('G1')" class="white-key">G1</button>
+            <button data-note="Ab1" onclick="playSound('Ab1')" class="black-key">Ab1</button>
+        
+            <button data-note="A1" onclick="playSound('A1')" class="white-key">A1</button>
+            <button data-note="Bb1" onclick="playSound('Bb1')" class="black-key">Bb1</button>
+        
+            <button data-note="B1" onclick="playSound('B1')" class="white-key">B1</button>
+            <button data-note="C2" onclick="playSound('C2')" class="black-key">C2</button>
+        
+            <button data-note="Db2" onclick="playSound('Db2')" class="white-key">Db2</button>
+            <button data-note="D2" onclick="playSound('D2')" class="black-key">D2</button>
+        
+            <button data-note="Eb2" onclick="playSound('Eb2')" class="white-key">Eb2</button>
+            <button data-note="E2" onclick="playSound('E2')" class="black-key">E2</button>
+        
+            <button data-note="F2" onclick="playSound('F2')" class="white-key">F2</button>
+            <button data-note="Gb2" onclick="playSound('Gb2')" class="black-key">Gb2</button>
+        
+            <button data-note="G2" onclick="playSound('G2')" class="white-key">G2</button>
+            <button data-note="Ab2" onclick="playSound('Ab2')" class="black-key">Ab2</button>
+        
+            <button data-note="A2" onclick="playSound('A2')" class="white-key">A2</button>
+            <button data-note="Bb2" onclick="playSound('Bb2')" class="black-key">Bb2</button>
+        
+            <button data-note="B2" onclick="playSound('B2')" class="white-key">B2</button>
+            <button data-note="C3" onclick="playSound('C3')" class="black-key">C3</button>
+            </div>
+            <button onclick="startRecording()">Start Recording</button>
+            <button onclick="stopRecording()">Stop Recording</button>
+            <button onclick="playUserChoices()">Replay</button>
+    </div>
+  <script src="script.js"></script>  
+</body>
+</html>

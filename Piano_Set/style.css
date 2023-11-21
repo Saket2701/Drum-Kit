@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #a8caa5;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.piano-container {
+    padding: 20px;
+    background-color: #f0f8ff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 20px;
+    padding: 0;
+    color: #333;
+}
+
+.piano-keys {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+button {
+    width: 60px;
+    height: 200px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.white-key {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.black-key {
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    margin-top: -80px;
+    width: 40px;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #ddd;
+    transform: translateY(-5px);
+}
